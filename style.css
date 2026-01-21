@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #1a0b2e;
+  font-family: "Courier New", Courier, monospace;
+  color: #d4af37;
+  overflow: hidden;
+  user-select: none;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+  letter-spacing: 2px;
+}
+
+#game-wrapper {
+  position: relative;
+  box-shadow: 0 0 40px rgba(138, 43, 226, 0.2);
+  border: 3px double #d4af37;
+  border-radius: 4px;
+  line-height: 0;
+}
+
+#fortune-box {
+  margin-top: 20px;
+  width: 580px;
+  padding: 15px;
+  background: rgba(20, 10, 30, 0.8);
+  border: 1px solid #d4af37;
+  text-align: center;
+  font-size: 16px;
+  color: #e0e0e0;
+  min-height: 24px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.blessing {
+  background-color: rgba(212, 175, 55, 0.2) !important;
+  border-color: #fff !important;
+  color: #fff !important;
+  box-shadow: 0 0 20px #d4af37;
+  transform: scale(1.05);
+}
+
+.curse {
+  background-color: rgba(139, 0, 0, 0.4) !important;
+  border-color: #ff4444 !important;
+  color: #ffcccc !important;
+  box-shadow: 0 0 20px #8b0000;
+  transform: scale(0.95);
+}
