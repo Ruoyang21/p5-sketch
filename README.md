@@ -8,8 +8,7 @@ with.
 
 How to Run
 Open the link below in your browser once GitHub Pages is enabled:
-https://yourusername.github.io/p5-sketch/ //make sure to use the actual URL that is being
-used. 
+https://github.com/Ruoyang21/p5-sketch
 
 Tools Used
 ● p5.js
